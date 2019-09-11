@@ -20,16 +20,16 @@ author:
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     :
-  facebook  : https://www.facebook.com/tuanictu97
-  twitter   : https://twitter.com/tuanictu97
+  facebook  : tuanictu97
+  twitter   : tuanictu97
   weibo     : # https://www.weibo.com/user_id/profile?...
   googleplus: # https://plus.google.com/u/0/user_id
-  telegram  : https://t.me/tuanictu97
+  telegram  : tuanictu97
   medium    : # https://medium.com/user_name
   zhihu     : # https://www.zhihu.com/people/user_name
   douban    : # https://www.douban.com/people/user_name
   linkedin  : # https://www.linkedin.com/in/user_name
-  github    : https://github.com/tuanictu97
+  github    : tuanictu97
   npm       : # https://www.npmjs.com/~user_name
 
 

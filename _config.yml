@@ -8,34 +8,34 @@ description: >
 
 
 lang: en
-timezone: #vn
+timezone: #ko
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Hà Anh Tuấn
+  name      : Jaehwi Park
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
-  email     :
-  facebook  : tuanictu97
-  twitter   : tuanictu97
-  weibo     : # https://www.weibo.com/user_id/profile?...
-  googleplus: # https://plus.google.com/u/0/user_id
-  telegram  : tuanictu97
-  medium    : # https://medium.com/user_name
-  zhihu     : # https://www.zhihu.com/people/user_name
-  douban    : # https://www.douban.com/people/user_name
-  linkedin  : # https://www.linkedin.com/in/user_name
-  github    : tuanictu97
-  npm       : # https://www.npmjs.com/~user_name
+  email     : iamhwii@gmail.com
+  facebook  : 
+  twitter   : 
+  weibo     : 
+  googleplus: 
+  telegram  : 
+  medium    : 
+  zhihu     : 
+  douban    : 
+  linkedin  : 
+  github    : jaehwi0823
+  npm       : 
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: tuanictu97/tuanictu97.github.io
+repository: jaehwi0823/jaehwi0823.github.io
 repository_tree: master
 
 

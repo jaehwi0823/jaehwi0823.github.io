@@ -23,7 +23,7 @@ myData.get_dtype_counts()
 
 ### 3. Handling a Series
 
- Select a column
+ - Select a column
 
 ```python
 # choose one
@@ -31,12 +31,12 @@ myData['column_name']
 myData.column_name
 ```
 
- if you want to treat it as a dataframe,
+ - if you want to treat it as a dataframe,
 ```python
 mySeries.to_frame()
 ```
 
- check frequencies
+ - check frequencies
 ```python
 # total
 mySeries.size
@@ -52,7 +52,7 @@ mySeries.value_counts()
 mySeries.value_counts(normalize=True)
 ```
 
- Statistics
+ - Statistics
 ```python
 # summary
 mySeries.describe()
@@ -61,7 +61,7 @@ mySeries.describe()
 mySeries.quantile([.1, .2, .3, .5, .8, .9])
 ```
 
- Treat null
+ - Treat null
 ```python
 # check null
 mySeries.notnull().all()
@@ -82,7 +82,7 @@ mySeries.astype(int)
 
 ### 4. Index
 
- set index
+ - set index
 ```python
 myData.set_index('column')
 
@@ -91,12 +91,12 @@ myData = pd.read_csv('./data/d.csv', index_col='index_column')
 myData = pd.read_csv('./data/d.csv', index_col='index_column', drop=False)
 ```
 
- bring back
+ - bring back
 ```python
 myData.reset_index()
 ```
 
- change index
+ - change index
 ```python
 newData = myData.rename(index={'old_idx':'new_idx'},
                         columns={'old_col':'new_col'})

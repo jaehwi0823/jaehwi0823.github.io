@@ -75,7 +75,7 @@ mySeries.fillna(0)
 mySeries.dropna()
 ```
 
- change dtype
+ - change dtype
 ```python
 mySeries.astype(int)
 ```

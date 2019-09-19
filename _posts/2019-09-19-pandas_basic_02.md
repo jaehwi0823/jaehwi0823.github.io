@@ -19,7 +19,8 @@ null_cols = (mydf.select_dtypes(['object']).isnull().sum()>0).to_list()
 mydf.select_dtypes(['object']).loc[:, null_cols]
 ```
 
- - It is useful to group columns and align them.
+ - It is useful to group columns and align them
+ 
  ```python
  col_A = [col_A1, col_A2, col_A3]
  col_B = [col_B1, col_B2]
@@ -31,6 +32,7 @@ mydf.select_dtypes(['object']).loc[:, null_cols]
 ### 02. Basic Calculation
 
  - Apply basic calculations to all columns
+ 
  ```python
 # ignore NaN
 mydf.count()

@@ -1,3 +1,10 @@
+---
+layout: article
+title: pandas basic 02
+tags: [pandas, numpy, datahandling, python]
+---
+
+
 ### 01. Column Selection
 
  - there are a few ways to select columns in a DataFrame.

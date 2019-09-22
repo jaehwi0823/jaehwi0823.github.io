@@ -2,9 +2,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : #
 baseurl : # 
-title   : Data Analysis Study Blog
+title   : Jaehwi's ML Log
 description: > 
-   Data Analysis Study Blog
+   SYNC(Systems You Need Company)
 
 
 lang: en

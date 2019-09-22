@@ -1,3 +1,10 @@
+---
+layout: article
+title: pandas basic 03
+tags: [pandas, numpy, datahandling, python]
+---
+
+
 ### 01. Subsetting
 
  - 전체 테이블 중 일부 테이블을 선택하는 방법을 알아봅니다.

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: pandas groupby
-tags: [pandas, numpy, datahandling, python, groupby]
+tags: [pandas, dataframe, datahandling, python, groupby]
 ---
 
 데이터분석시, 특정 조건의 group별 연산이 매우 빈번하게 발생합니다. Pandas DataFrame에서 해당 작업들을 처리하는 방식을 알아봅니다.
@@ -132,3 +132,15 @@ mydf.groupby('mycol').apply(my_apply_func_ex2)
  # 해당 범주를 그룹으로 활용
  mydf.groupby(cuts)
  ```
+
+### 07. pivot_table 함수
+
+ - groupby와 같이 집계를 쉽계하는 pivot_table 함수에 대해 알아봅니다.
+
+```python
+mydf.pivot_table(index='col1',   # axis 0
+                 columns='col2', # axis 1
+                 values='col3',  # 집계값
+                 aggfunc=np.sum, # 집계방법
+                 fill_value=0).round(2) # null인경우
+```

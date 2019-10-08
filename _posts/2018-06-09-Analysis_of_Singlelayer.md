@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Annotating Object Instatnces with a Polygon-RNN review
-tags: [paper, review, ml, object, detection, polygon, rnn]
+title: An Analysis of Single-Layer Networks in Unsupervised Feature Learning review
+tags: [paper, review, ml, unsupervised, feature]
 ---
 
 # An Analysis of Single-Layer Networks in Unsupervised Feature Learning

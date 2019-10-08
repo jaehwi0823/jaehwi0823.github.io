@@ -12,7 +12,7 @@ jaehwi Park
 ## 0. Abstract
 
  - 매번 모형을 처음부터 학습하는 것: high cost
- - "Once for All(OFA)"은 여러 시나리오들을 커버할 수 있도록, <모형 학습>과 <모형 탐색>을 분리합니다.
+ - "Once for All(OFA)"은 여러 시나리오들을 커버할 수 있도록, 모형 학습과 모형 탐색을 분리합니다.
  - 특화된 모형을 학습하는 것 대신, 다양한 architectural settings가 가능한 OFA 모형을 추천합니다.
  - 주어진 deployment scenario에 맞게, OFA network에서 특화된 sub-network를 학습없이 추후에 찾을 수 있습니다. -> training time: O(1)
  - 그러나, 많은 sub-networks 간의 간섭을 피할 수 가 없습니다.

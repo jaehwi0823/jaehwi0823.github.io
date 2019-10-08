@@ -22,7 +22,7 @@ jaehwi Park
 
 ### <center><strong>  [Figure1: Concept Overview] </strong></center>
 
-![Figure1](./Figure1.png)
+![Figure1](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure1.png)
 
 ## 1. Introduction
 
@@ -106,7 +106,7 @@ __A Progressive Shrinking Approach.__
 
 ### <center><strong>  [Figure2: Once-for-All network training] </strong></center>
 
-![Figure2](./Figure2.png)
+![Figure2](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure2.png)
 
  - 먼저 [depths], [widths], [kernel sizes] 옵션의 최대값을 가지며 다양한 resolutions $\mathcal{R} \in \{128, 132, ..., 224 \}$를 갖는 모형을 학습합니다.
  - 그리고 점진적으로 더 작은 [depths], [widths], [kernel sizes] 값의 조합을 갖는 sub-networks를 학습합니다.
@@ -134,7 +134,7 @@ __2) Elastic Kernel Size__
 
 ### <center><strong>  [Figure3: Kernel Transformation Matrices] </strong></center>
 
-![Figure3](./Figure3.png)
+![Figure3](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure3.png)
 
 __3) Elastic Depth__
 
@@ -148,7 +148,7 @@ __3) Elastic Depth__
 
 ### <center><strong>  [Figure4: Elastic Depth] </strong></center>
 
-![Figure4](./Figure4.png)
+![Figure4](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure4.png)
 
 __4) Elastic Width__
 
@@ -159,7 +159,7 @@ __4) Elastic Width__
 
 ### <center><strong>  [Figure5: Elastic Width] </strong></center>
 
-![Figure5](./Figure5.png)
+![Figure5](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure5.png)
 
 __5) Knowledge Distillation__
 
@@ -195,8 +195,8 @@ __Training Details.__
  > - 만약 Depth(Block) = 2: (Each Block)$^2$
  > - width & kernel size: 1개의 블럭은 (width $\times$ kernel size) weights
 
-![Table2](./Table2.png)
+![Table2](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Table2.png)
 
 ### 4.2 Specialized Sub-networks for Different Hardware Platforms and Constraints
 
-![Figure6](./Figure6.png)
+![Figure6](https://github.com/jaehwi0823/jaehwi0823.github.io/tree/master/_image/OFA/Figure6.png)

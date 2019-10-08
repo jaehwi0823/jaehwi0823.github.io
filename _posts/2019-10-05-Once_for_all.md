@@ -27,7 +27,7 @@ jaehwi Park
 ## 1. Introduction
 
  - 어떻게 작업 환경(latency, energy consumption 등)이 다른 많은 플랫폼들에 딥러닝 모형을 deploy 할 것인지가 중요한 이슈가 됐다고 합니다.
- > 예시> iPhone-XS-Max와 5-year-old iPhone-6 모두에서 잘 작동해야 한다는데.. 흠...
+ > 예시> iPhone-XS-Max와 5-year-old iPhone-6 모두에서 잘 작동해야 한다는데..
  - 다양한 하드웨어 사양들에 최적화하기 위해, 지금까지는 __1) compact models__ & __2) model compression__ 들이 연구됐습니다.
  - 그럼에도 모든 deployment scenario에 맞는 수 많은 모형들을 만들어내는 것은 현실적으로 어렵습니다.
  - 매번 특정 사양에 맞게 Architecture design이 필요하고, 그에 맞게 모형을 처음부터 재학습해야하기 때문입니다.

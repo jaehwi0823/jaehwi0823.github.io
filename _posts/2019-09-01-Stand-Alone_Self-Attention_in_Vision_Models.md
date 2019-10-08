@@ -137,7 +137,7 @@ for epoch in range(1, 2):
   - Query, Keys, Values: http://jalammar.github.io/illustrated-transformer/
   - This paper removes entire convolutions and uses only local self-attention
 
-![Figure3-4](./Figure3-4.png)
+![Figure3-4](https://raw.githubusercontent.com/jaehwi0823/jaehwi0823.github.io/master/_image/Stand_alone_self_attention/Figure3-4.png)
 
 # <center> $y_{ij} = \sum$softmax$_{ab}(q_{ij}^\intercal k_{ab} + q_{ij}^\intercal r_{a-i,b-j}) v_{ab}$ </center>
 
@@ -196,7 +196,7 @@ class AttentionConv(nn.Module):
  - A 2x2 average pooling with stride 2 operation follows
  - for ResNet: swaps the 3x3 spatial convolution with a self-attention layer
  
-![ResNet](./ResNet.png)
+![ResNet](https://raw.githubusercontent.com/jaehwi0823/jaehwi0823.github.io/master/_image/Stand_alone_self_attention/ResNet.png)
 
 ### 3.2 Replacing the Convolutional Stem
  - Stemp: the initial layers of a CNN
